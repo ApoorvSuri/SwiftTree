@@ -39,7 +39,8 @@ public class NodeView: UIView {
     }
     
     class func instantiate(withOwner owner: Any) -> NodeView {
-        let feedsView = UINib.init(nibName: "NodeView", bundle:nil).instantiate(withOwner: owner, options: [:])[0] as! NodeView
+        let podBundle = Bundle.init(for: NodeView.self)
+        let feedsView = UINib.init(nibName: "NodeView", bundle:podBundle).instantiate(withOwner: owner, options: [:])[0] as! NodeView
         feedsView.clipsToBounds = true
         return feedsView
     }

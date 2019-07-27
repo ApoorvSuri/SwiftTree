@@ -28,8 +28,6 @@
 		F947A4F522EC7267007EEE9C /* TreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F947A4ED22EC7267007EEE9C /* TreeView.swift */; };
 		F947A4F622EC7267007EEE9C /* RelationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F947A4EF22EC7267007EEE9C /* RelationView.swift */; };
 		F947A4F722EC7267007EEE9C /* RelationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F947A4EF22EC7267007EEE9C /* RelationView.swift */; };
-		F947A52C22EC74F8007EEE9C /* SwiftTree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F947A4A922EC71C7007EEE9C /* SwiftTree.framework */; };
-		F947A52D22EC74F8007EEE9C /* SwiftTree.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F947A4A922EC71C7007EEE9C /* SwiftTree.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,42 +38,7 @@
 			remoteGlobalIDString = F947A4A822EC71C7007EEE9C;
 			remoteInfo = SwiftTree;
 		};
-		F947A51022EC7313007EEE9C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F947A4A022EC71C7007EEE9C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F947A4FB22EC7312007EEE9C;
-			remoteInfo = SwiftTreeTest;
-		};
-		F947A51B22EC7313007EEE9C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F947A4A022EC71C7007EEE9C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F947A4FB22EC7312007EEE9C;
-			remoteInfo = SwiftTreeTest;
-		};
-		F947A52E22EC74F8007EEE9C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F947A4A022EC71C7007EEE9C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F947A4A822EC71C7007EEE9C;
-			remoteInfo = SwiftTree;
-		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		F947A53922EC74F8007EEE9C /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				F947A52D22EC74F8007EEE9C /* SwiftTree.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		123E2A1AFD0FAD30B18BBC27 /* Pods-SwiftTree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTree.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTree/Pods-SwiftTree.release.xcconfig"; sourceTree = "<group>"; };
@@ -98,9 +61,6 @@
 		F947A4EB22EC7267007EEE9C /* NodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeView.swift; sourceTree = "<group>"; };
 		F947A4ED22EC7267007EEE9C /* TreeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeView.swift; sourceTree = "<group>"; };
 		F947A4EF22EC7267007EEE9C /* RelationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelationView.swift; sourceTree = "<group>"; };
-		F947A4FC22EC7312007EEE9C /* SwiftTreeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTreeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F947A50F22EC7313007EEE9C /* SwiftTreeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTreeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F947A51A22EC7313007EEE9C /* SwiftTreeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTreeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F947A52A22EC73AE007EEE9C /* Pods_SwiftTree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_SwiftTree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -119,28 +79,6 @@
 			files = (
 				F947A4B322EC71C7007EEE9C /* SwiftTree.framework in Frameworks */,
 				1C309D2D58835B7D0A0756D6 /* Pods_SwiftTreeTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F947A4F922EC7312007EEE9C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F947A52C22EC74F8007EEE9C /* SwiftTree.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F947A50C22EC7313007EEE9C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F947A51722EC7313007EEE9C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,9 +122,6 @@
 			children = (
 				F947A4A922EC71C7007EEE9C /* SwiftTree.framework */,
 				F947A4B222EC71C7007EEE9C /* SwiftTreeTests.xctest */,
-				F947A4FC22EC7312007EEE9C /* SwiftTreeTest.app */,
-				F947A50F22EC7313007EEE9C /* SwiftTreeTestTests.xctest */,
-				F947A51A22EC7313007EEE9C /* SwiftTreeTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -310,61 +245,6 @@
 			productReference = F947A4B222EC71C7007EEE9C /* SwiftTreeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F947A4FB22EC7312007EEE9C /* SwiftTreeTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F947A52722EC7313007EEE9C /* Build configuration list for PBXNativeTarget "SwiftTreeTest" */;
-			buildPhases = (
-				F947A4F822EC7312007EEE9C /* Sources */,
-				F947A4F922EC7312007EEE9C /* Frameworks */,
-				F947A4FA22EC7312007EEE9C /* Resources */,
-				F947A53922EC74F8007EEE9C /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F947A52F22EC74F8007EEE9C /* PBXTargetDependency */,
-			);
-			name = SwiftTreeTest;
-			productName = SwiftTreeTest;
-			productReference = F947A4FC22EC7312007EEE9C /* SwiftTreeTest.app */;
-			productType = "com.apple.product-type.application";
-		};
-		F947A50E22EC7313007EEE9C /* SwiftTreeTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F947A52822EC7313007EEE9C /* Build configuration list for PBXNativeTarget "SwiftTreeTestTests" */;
-			buildPhases = (
-				F947A50B22EC7313007EEE9C /* Sources */,
-				F947A50C22EC7313007EEE9C /* Frameworks */,
-				F947A50D22EC7313007EEE9C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F947A51122EC7313007EEE9C /* PBXTargetDependency */,
-			);
-			name = SwiftTreeTestTests;
-			productName = SwiftTreeTestTests;
-			productReference = F947A50F22EC7313007EEE9C /* SwiftTreeTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F947A51922EC7313007EEE9C /* SwiftTreeTestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F947A52922EC7313007EEE9C /* Build configuration list for PBXNativeTarget "SwiftTreeTestUITests" */;
-			buildPhases = (
-				F947A51622EC7313007EEE9C /* Sources */,
-				F947A51722EC7313007EEE9C /* Frameworks */,
-				F947A51822EC7313007EEE9C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F947A51C22EC7313007EEE9C /* PBXTargetDependency */,
-			);
-			name = SwiftTreeTestUITests;
-			productName = SwiftTreeTestUITests;
-			productReference = F947A51A22EC7313007EEE9C /* SwiftTreeTestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -380,17 +260,6 @@
 					};
 					F947A4B122EC71C7007EEE9C = {
 						CreatedOnToolsVersion = 10.3;
-					};
-					F947A4FB22EC7312007EEE9C = {
-						CreatedOnToolsVersion = 10.3;
-					};
-					F947A50E22EC7313007EEE9C = {
-						CreatedOnToolsVersion = 10.3;
-						TestTargetID = F947A4FB22EC7312007EEE9C;
-					};
-					F947A51922EC7313007EEE9C = {
-						CreatedOnToolsVersion = 10.3;
-						TestTargetID = F947A4FB22EC7312007EEE9C;
 					};
 				};
 			};
@@ -409,9 +278,6 @@
 			targets = (
 				F947A4A822EC71C7007EEE9C /* SwiftTree */,
 				F947A4B122EC71C7007EEE9C /* SwiftTreeTests */,
-				F947A4FB22EC7312007EEE9C /* SwiftTreeTest */,
-				F947A50E22EC7313007EEE9C /* SwiftTreeTestTests */,
-				F947A51922EC7313007EEE9C /* SwiftTreeTestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -430,27 +296,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F947A4F122EC7267007EEE9C /* NodeView.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F947A4FA22EC7312007EEE9C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F947A50D22EC7313007EEE9C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F947A51822EC7313007EEE9C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,27 +388,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F947A4F822EC7312007EEE9C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F947A50B22EC7313007EEE9C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F947A51622EC7313007EEE9C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -571,21 +395,6 @@
 			isa = PBXTargetDependency;
 			target = F947A4A822EC71C7007EEE9C /* SwiftTree */;
 			targetProxy = F947A4B422EC71C7007EEE9C /* PBXContainerItemProxy */;
-		};
-		F947A51122EC7313007EEE9C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F947A4FB22EC7312007EEE9C /* SwiftTreeTest */;
-			targetProxy = F947A51022EC7313007EEE9C /* PBXContainerItemProxy */;
-		};
-		F947A51C22EC7313007EEE9C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F947A4FB22EC7312007EEE9C /* SwiftTreeTest */;
-			targetProxy = F947A51B22EC7313007EEE9C /* PBXContainerItemProxy */;
-		};
-		F947A52F22EC74F8007EEE9C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F947A4A822EC71C7007EEE9C /* SwiftTree */;
-			targetProxy = F947A52E22EC74F8007EEE9C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -802,116 +611,6 @@
 			};
 			name = Release;
 		};
-		F947A52122EC7313007EEE9C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SwiftTreeTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ApoorvSuri.SwiftTreeTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F947A52222EC7313007EEE9C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SwiftTreeTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ApoorvSuri.SwiftTreeTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		F947A52322EC7313007EEE9C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SwiftTreeTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ApoorvSuri.SwiftTreeTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTreeTest.app/SwiftTreeTest";
-			};
-			name = Debug;
-		};
-		F947A52422EC7313007EEE9C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SwiftTreeTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ApoorvSuri.SwiftTreeTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTreeTest.app/SwiftTreeTest";
-			};
-			name = Release;
-		};
-		F947A52522EC7313007EEE9C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SwiftTreeTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ApoorvSuri.SwiftTreeTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftTreeTest;
-			};
-			name = Debug;
-		};
-		F947A52622EC7313007EEE9C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SwiftTreeTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ApoorvSuri.SwiftTreeTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftTreeTest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -938,33 +637,6 @@
 			buildConfigurations = (
 				F947A4C122EC71C7007EEE9C /* Debug */,
 				F947A4C222EC71C7007EEE9C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F947A52722EC7313007EEE9C /* Build configuration list for PBXNativeTarget "SwiftTreeTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F947A52122EC7313007EEE9C /* Debug */,
-				F947A52222EC7313007EEE9C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F947A52822EC7313007EEE9C /* Build configuration list for PBXNativeTarget "SwiftTreeTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F947A52322EC7313007EEE9C /* Debug */,
-				F947A52422EC7313007EEE9C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F947A52922EC7313007EEE9C /* Build configuration list for PBXNativeTarget "SwiftTreeTestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F947A52522EC7313007EEE9C /* Debug */,
-				F947A52622EC7313007EEE9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

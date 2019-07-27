@@ -20,5 +20,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Apoorv Suri" => "apoorvsuri2012@gmail.com" }
   spec.source       = { :git => "https://github.com/ApoorvSuri/SwiftTree.git", :tag => "1.0.0" }
   spec.source_files  = "SwiftTree/**/*.{swift}"
+  spec.resources = ["*.{xib}"]
   spec.swift_version = "4.2"
+  spec.dependency "KebabMenuView"
 end
