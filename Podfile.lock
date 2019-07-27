@@ -1,0 +1,16 @@
+PODS:
+  - KebabMenuView (1.0.2)
+
+DEPENDENCIES:
+  - KebabMenuView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - KebabMenuView
+
+SPEC CHECKSUMS:
+  KebabMenuView: ef097076ace75317aa11936e2599f40c70753f43
+
+PODFILE CHECKSUM: d3c7e877ec1925e913d74017967b8fdaf017c12a
+
+COCOAPODS: 1.5.3

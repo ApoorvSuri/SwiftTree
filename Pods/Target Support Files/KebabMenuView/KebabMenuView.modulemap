@@ -1,0 +1,6 @@
+framework module KebabMenuView {
+  umbrella header "KebabMenuView-umbrella.h"
+
+  export *
+  module * { export * }
+}

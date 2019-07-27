@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45E841750BCFF424E313863545C4758D /* KebabMenuView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FBA771B4E4D44682934217140DB0B13 /* KebabMenuView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B0B75462A047A323C50DBDF33C69F7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		9E8A5FB2203F111F88EEB3F0E28DD65F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		A8E9FD4CCD1DE9AA752BA35915E1C717 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		BB609AE98791EBE64B435F37472250C1 /* KebabMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93240BE31A497AD0897E87C3D28DBF09 /* KebabMenuView.swift */; };
+		BEAC2B620EFBBF2B73582A6580883C12 /* KebabMenuView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEED471FBAF61A251C567EF1D1A84441 /* KebabMenuView-dummy.m */; };
+		DC2A339066A6ACBDB7A672C3C2CE0EAC /* Pods-SwiftTree-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9493F922D881A94DC51D06B52869DDB8 /* Pods-SwiftTree-dummy.m */; };
+		DE2AEAFEDBFE3C5C712E773C31A08E19 /* Pods-SwiftTree-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D22F6E9A1FBBF09DE9ABA9114B5C1C5 /* Pods-SwiftTree-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6C04FE88520E96FCF3506CCB4381AD2 /* Pods-SwiftTreeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEFE01A69AFCD300313CC8E2A6089CE /* Pods-SwiftTreeTests-dummy.m */; };
+		F6D2076DCD150D60C6E87E785DDA7B49 /* Pods-SwiftTreeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED813C6A166289E70E97777D426A1EE8 /* Pods-SwiftTreeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEB36641E77CC1B668E8FCC095A969B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7802290B0B5939FA3ACA667787E42D55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 403F7CC810A4A6C8471FE1DE387F9D45;
+			remoteInfo = KebabMenuView;
+		};
+		85B5153D796011A7EAF7E2E2ADE6342C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 403F7CC810A4A6C8471FE1DE387F9D45;
+			remoteInfo = KebabMenuView;
+		};
+		F33DB81C7C611337AEC9D9E90F8CA0A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B641B6EC4C2C1916440C7149FB1683A7;
+			remoteInfo = "Pods-SwiftTree";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AEFE01A69AFCD300313CC8E2A6089CE /* Pods-SwiftTreeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftTreeTests-dummy.m"; sourceTree = "<group>"; };
+		0D22F6E9A1FBBF09DE9ABA9114B5C1C5 /* Pods-SwiftTree-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftTree-umbrella.h"; sourceTree = "<group>"; };
+		1B8E5C660DDC88DCFD1B36C761BC3082 /* Pods-SwiftTree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftTree.debug.xcconfig"; sourceTree = "<group>"; };
+		1D081C8643C137B8EFDCD7CA6891E77F /* Pods-SwiftTreeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftTreeTests-resources.sh"; sourceTree = "<group>"; };
+		23A9DB734F8D97EE6EFABF20DC426754 /* Pods-SwiftTree-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftTree-resources.sh"; sourceTree = "<group>"; };
+		24A1FE0DE8D77840DB1E7126EDE2C1C0 /* Pods-SwiftTreeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftTreeTests.modulemap"; sourceTree = "<group>"; };
+		3755F388EC4B0BE3AD8CEF6620F3481C /* Pods-SwiftTree.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftTree.modulemap"; sourceTree = "<group>"; };
+		395ED9D2457C4DAE21ADBA3736E665E9 /* Pods-SwiftTree-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftTree-acknowledgements.plist"; sourceTree = "<group>"; };
+		6CB36B895E1758012BA2CC32EA7FCF1B /* Pods-SwiftTree-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftTree-acknowledgements.markdown"; sourceTree = "<group>"; };
+		72AFEF3053177230C4D7843E30878E16 /* Pods-SwiftTreeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftTreeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		77BE5BF9B2DCE5BAAEF3BC7E3A898570 /* Pods-SwiftTreeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftTreeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FBA771B4E4D44682934217140DB0B13 /* KebabMenuView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KebabMenuView-umbrella.h"; sourceTree = "<group>"; };
+		81D26CC6705375A56291AD43369DD8F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		902CC11819E9079CFDA24739BDC6E44D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		913B6534A73E52FAB73E8597802AFA91 /* KebabMenuView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KebabMenuView.framework; path = KebabMenuView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93240BE31A497AD0897E87C3D28DBF09 /* KebabMenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KebabMenuView.swift; path = KebabMenuView/KebabMenuView.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9493F922D881A94DC51D06B52869DDB8 /* Pods-SwiftTree-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftTree-dummy.m"; sourceTree = "<group>"; };
+		A0DF33179BDAE9B55143D66EE1CCBBBC /* KebabMenuView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KebabMenuView.modulemap; sourceTree = "<group>"; };
+		B367F03142FB0DF9A28942F66A28D081 /* KebabMenuView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KebabMenuView.xcconfig; sourceTree = "<group>"; };
+		B40B8D85CF3068C7A56A858420C50C24 /* Pods_SwiftTree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftTree.framework; path = "Pods-SwiftTree.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C481366CE01329BBADB474DCA080A5A3 /* Pods-SwiftTree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftTree.release.xcconfig"; sourceTree = "<group>"; };
+		CA7EE19A01B9733903A7C7749377266D /* Pods-SwiftTreeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftTreeTests.release.xcconfig"; sourceTree = "<group>"; };
+		CDF23C5A7ACC0F10FEDCBF1048E51142 /* KebabMenuView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KebabMenuView-prefix.pch"; sourceTree = "<group>"; };
+		DEED471FBAF61A251C567EF1D1A84441 /* KebabMenuView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KebabMenuView-dummy.m"; sourceTree = "<group>"; };
+		E39F6315216EF9D8D56F68260DAA23D2 /* Pods_SwiftTreeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftTreeTests.framework; path = "Pods-SwiftTreeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81AF4712D4053E3BCBB410AF82111AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC7E3F22931A6758E277F2E8AFF7692F /* Pods-SwiftTreeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftTreeTests-frameworks.sh"; sourceTree = "<group>"; };
+		ED813C6A166289E70E97777D426A1EE8 /* Pods-SwiftTreeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftTreeTests-umbrella.h"; sourceTree = "<group>"; };
+		F07C0644D0CE7E9BC32F3D730513EAC9 /* Pods-SwiftTreeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftTreeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68B15911080FF85131E1A2AD3B8FDF95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E8A5FB2203F111F88EEB3F0E28DD65F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB9760A6AD47047D8949124C2A07247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8E9FD4CCD1DE9AA752BA35915E1C717 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE6F48A4B719D536E487FF027C7FFBD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB36641E77CC1B668E8FCC095A969B0 /* Foundation.framework in Frameworks */,
+				7B0B75462A047A323C50DBDF33C69F7F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				F91F6AE4DCE5284F5991221B144D2594 /* Pods */,
+				EAFC82A6DB279EF83224291126D2885B /* Products */,
+				F550A63EC835478177BC26E61B93E963 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BBDDFB2AC21545B8DF67A13DA2FBFAC3 /* Pods-SwiftTreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				81D26CC6705375A56291AD43369DD8F9 /* Info.plist */,
+				24A1FE0DE8D77840DB1E7126EDE2C1C0 /* Pods-SwiftTreeTests.modulemap */,
+				F07C0644D0CE7E9BC32F3D730513EAC9 /* Pods-SwiftTreeTests-acknowledgements.markdown */,
+				72AFEF3053177230C4D7843E30878E16 /* Pods-SwiftTreeTests-acknowledgements.plist */,
+				0AEFE01A69AFCD300313CC8E2A6089CE /* Pods-SwiftTreeTests-dummy.m */,
+				EC7E3F22931A6758E277F2E8AFF7692F /* Pods-SwiftTreeTests-frameworks.sh */,
+				1D081C8643C137B8EFDCD7CA6891E77F /* Pods-SwiftTreeTests-resources.sh */,
+				ED813C6A166289E70E97777D426A1EE8 /* Pods-SwiftTreeTests-umbrella.h */,
+				77BE5BF9B2DCE5BAAEF3BC7E3A898570 /* Pods-SwiftTreeTests.debug.xcconfig */,
+				CA7EE19A01B9733903A7C7749377266D /* Pods-SwiftTreeTests.release.xcconfig */,
+			);
+			name = "Pods-SwiftTreeTests";
+			path = "Target Support Files/Pods-SwiftTreeTests";
+			sourceTree = "<group>";
+		};
+		C78FEB65195377CF43A772E03C167961 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E81AF4712D4053E3BCBB410AF82111AE /* Info.plist */,
+				A0DF33179BDAE9B55143D66EE1CCBBBC /* KebabMenuView.modulemap */,
+				B367F03142FB0DF9A28942F66A28D081 /* KebabMenuView.xcconfig */,
+				DEED471FBAF61A251C567EF1D1A84441 /* KebabMenuView-dummy.m */,
+				CDF23C5A7ACC0F10FEDCBF1048E51142 /* KebabMenuView-prefix.pch */,
+				7FBA771B4E4D44682934217140DB0B13 /* KebabMenuView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KebabMenuView";
+			sourceTree = "<group>";
+		};
+		EAFC82A6DB279EF83224291126D2885B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				913B6534A73E52FAB73E8597802AFA91 /* KebabMenuView.framework */,
+				B40B8D85CF3068C7A56A858420C50C24 /* Pods_SwiftTree.framework */,
+				E39F6315216EF9D8D56F68260DAA23D2 /* Pods_SwiftTreeTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED0D3C525CFEA110108BC8EE29EAC497 /* KebabMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				93240BE31A497AD0897E87C3D28DBF09 /* KebabMenuView.swift */,
+				C78FEB65195377CF43A772E03C167961 /* Support Files */,
+			);
+			name = KebabMenuView;
+			path = KebabMenuView;
+			sourceTree = "<group>";
+		};
+		EE3E9C4205569A8E6C9050449A6DA875 /* Pods-SwiftTree */ = {
+			isa = PBXGroup;
+			children = (
+				902CC11819E9079CFDA24739BDC6E44D /* Info.plist */,
+				3755F388EC4B0BE3AD8CEF6620F3481C /* Pods-SwiftTree.modulemap */,
+				6CB36B895E1758012BA2CC32EA7FCF1B /* Pods-SwiftTree-acknowledgements.markdown */,
+				395ED9D2457C4DAE21ADBA3736E665E9 /* Pods-SwiftTree-acknowledgements.plist */,
+				9493F922D881A94DC51D06B52869DDB8 /* Pods-SwiftTree-dummy.m */,
+				23A9DB734F8D97EE6EFABF20DC426754 /* Pods-SwiftTree-resources.sh */,
+				0D22F6E9A1FBBF09DE9ABA9114B5C1C5 /* Pods-SwiftTree-umbrella.h */,
+				1B8E5C660DDC88DCFD1B36C761BC3082 /* Pods-SwiftTree.debug.xcconfig */,
+				C481366CE01329BBADB474DCA080A5A3 /* Pods-SwiftTree.release.xcconfig */,
+			);
+			name = "Pods-SwiftTree";
+			path = "Target Support Files/Pods-SwiftTree";
+			sourceTree = "<group>";
+		};
+		F550A63EC835478177BC26E61B93E963 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE3E9C4205569A8E6C9050449A6DA875 /* Pods-SwiftTree */,
+				BBDDFB2AC21545B8DF67A13DA2FBFAC3 /* Pods-SwiftTreeTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F91F6AE4DCE5284F5991221B144D2594 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED0D3C525CFEA110108BC8EE29EAC497 /* KebabMenuView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4FD513C8722AFF21259D0E1D387F5C36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D2076DCD150D60C6E87E785DDA7B49 /* Pods-SwiftTreeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2E7ED2FA4331072EE082B1D85E11B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2AEAFEDBFE3C5C712E773C31A08E19 /* Pods-SwiftTree-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA738043E22CF826B5AA5979BB89E561 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E841750BCFF424E313863545C4758D /* KebabMenuView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		403F7CC810A4A6C8471FE1DE387F9D45 /* KebabMenuView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C80EBE6FAB67DD2AE2D697DE58576DC /* Build configuration list for PBXNativeTarget "KebabMenuView" */;
+			buildPhases = (
+				5CDA17B4AEF58BB335FB211A52EFE6DB /* Sources */,
+				DE6F48A4B719D536E487FF027C7FFBD0 /* Frameworks */,
+				BA738043E22CF826B5AA5979BB89E561 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KebabMenuView;
+			productName = KebabMenuView;
+			productReference = 913B6534A73E52FAB73E8597802AFA91 /* KebabMenuView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0EBEB47B5BD843C17C666C916128567 /* Pods-SwiftTreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5129383CD6C5A0F7AE18031F1C160F20 /* Build configuration list for PBXNativeTarget "Pods-SwiftTreeTests" */;
+			buildPhases = (
+				3A89BDD32AA14C2F08E9A98BC8E41996 /* Sources */,
+				BBB9760A6AD47047D8949124C2A07247 /* Frameworks */,
+				4FD513C8722AFF21259D0E1D387F5C36 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29BCAB093D5E8DB8EE11A865E744BF94 /* PBXTargetDependency */,
+				BF7C04A108CAD210E6F6CD8F708321D4 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftTreeTests";
+			productName = "Pods-SwiftTreeTests";
+			productReference = E39F6315216EF9D8D56F68260DAA23D2 /* Pods_SwiftTreeTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B641B6EC4C2C1916440C7149FB1683A7 /* Pods-SwiftTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F00A1C6B535E4C4D4CB155E9EE4ECF9 /* Build configuration list for PBXNativeTarget "Pods-SwiftTree" */;
+			buildPhases = (
+				EFB6599FDBD7E5352B876CF9DECB1349 /* Sources */,
+				68B15911080FF85131E1A2AD3B8FDF95 /* Frameworks */,
+				8E2E7ED2FA4331072EE082B1D85E11B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE593B85FE66F964651138BCA2F1BE2C /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftTree";
+			productName = "Pods-SwiftTree";
+			productReference = B40B8D85CF3068C7A56A858420C50C24 /* Pods_SwiftTree.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EAFC82A6DB279EF83224291126D2885B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				403F7CC810A4A6C8471FE1DE387F9D45 /* KebabMenuView */,
+				B641B6EC4C2C1916440C7149FB1683A7 /* Pods-SwiftTree */,
+				A0EBEB47B5BD843C17C666C916128567 /* Pods-SwiftTreeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A89BDD32AA14C2F08E9A98BC8E41996 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C04FE88520E96FCF3506CCB4381AD2 /* Pods-SwiftTreeTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDA17B4AEF58BB335FB211A52EFE6DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEAC2B620EFBBF2B73582A6580883C12 /* KebabMenuView-dummy.m in Sources */,
+				BB609AE98791EBE64B435F37472250C1 /* KebabMenuView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB6599FDBD7E5352B876CF9DECB1349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2A339066A6ACBDB7A672C3C2CE0EAC /* Pods-SwiftTree-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29BCAB093D5E8DB8EE11A865E744BF94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KebabMenuView;
+			target = 403F7CC810A4A6C8471FE1DE387F9D45 /* KebabMenuView */;
+			targetProxy = 85B5153D796011A7EAF7E2E2ADE6342C /* PBXContainerItemProxy */;
+		};
+		AE593B85FE66F964651138BCA2F1BE2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KebabMenuView;
+			target = 403F7CC810A4A6C8471FE1DE387F9D45 /* KebabMenuView */;
+			targetProxy = 7802290B0B5939FA3ACA667787E42D55 /* PBXContainerItemProxy */;
+		};
+		BF7C04A108CAD210E6F6CD8F708321D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SwiftTree";
+			target = B641B6EC4C2C1916440C7149FB1683A7 /* Pods-SwiftTree */;
+			targetProxy = F33DB81C7C611337AEC9D9E90F8CA0A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32C11FF3579C37C6F3BEF20AA7F3DE4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		773D04721FE02B52ADE975B7D977F863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77BE5BF9B2DCE5BAAEF3BC7E3A898570 /* Pods-SwiftTreeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftTreeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftTreeTests/Pods-SwiftTreeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7AF2A5534DEE6601A654ADEF32977284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C481366CE01329BBADB474DCA080A5A3 /* Pods-SwiftTree.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftTree/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftTree/Pods-SwiftTree.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84687D92A41E2B95DF8AC2B5F86126DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B367F03142FB0DF9A28942F66A28D081 /* KebabMenuView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KebabMenuView/KebabMenuView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KebabMenuView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KebabMenuView/KebabMenuView.modulemap";
+				PRODUCT_MODULE_NAME = KebabMenuView;
+				PRODUCT_NAME = KebabMenuView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8AF6D628E9EBAD706363867753FB05CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B8E5C660DDC88DCFD1B36C761BC3082 /* Pods-SwiftTree.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftTree/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftTree/Pods-SwiftTree.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A222D3F65D1F9F7CBAB86E4AE5BEB7B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA7EE19A01B9733903A7C7749377266D /* Pods-SwiftTreeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftTreeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftTreeTests/Pods-SwiftTreeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E0C53E7C620B165661D50AF0805E681B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B367F03142FB0DF9A28942F66A28D081 /* KebabMenuView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KebabMenuView/KebabMenuView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KebabMenuView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KebabMenuView/KebabMenuView.modulemap";
+				PRODUCT_MODULE_NAME = KebabMenuView;
+				PRODUCT_NAME = KebabMenuView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EAA4E70ED153CAD7A25BD9F5896280F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA4E70ED153CAD7A25BD9F5896280F3 /* Debug */,
+				32C11FF3579C37C6F3BEF20AA7F3DE4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5129383CD6C5A0F7AE18031F1C160F20 /* Build configuration list for PBXNativeTarget "Pods-SwiftTreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773D04721FE02B52ADE975B7D977F863 /* Debug */,
+				A222D3F65D1F9F7CBAB86E4AE5BEB7B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F00A1C6B535E4C4D4CB155E9EE4ECF9 /* Build configuration list for PBXNativeTarget "Pods-SwiftTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF6D628E9EBAD706363867753FB05CD /* Debug */,
+				7AF2A5534DEE6601A654ADEF32977284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C80EBE6FAB67DD2AE2D697DE58576DC /* Build configuration list for PBXNativeTarget "KebabMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0C53E7C620B165661D50AF0805E681B /* Debug */,
+				84687D92A41E2B95DF8AC2B5F86126DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
